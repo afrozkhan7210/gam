@@ -12,7 +12,7 @@ bulletSound = loadSound("bullet.mp3");
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    man = createSprite(width-1300,600,50,50);
+    man = createSprite(width-1300,height-100,50,50);
     man.addAnimation("idle",manAnim);
   
     man.addAnimation("shooying",manShoot)
